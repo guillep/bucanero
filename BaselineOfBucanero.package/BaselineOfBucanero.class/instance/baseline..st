@@ -5,4 +5,4 @@ baseline: spec
 		configuration: 'Matra'
 			with: [
 				spec repository: 'github://guillep/Matra:master/repository' ];
-		package: 'Bucanero' with: [ spec requires: #('Matra') ] ]
+		package: 'BucaneroTestRunner' with: [ spec requires: #('Matra') ] ]
