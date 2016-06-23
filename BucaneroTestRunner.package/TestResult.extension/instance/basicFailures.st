@@ -1,0 +1,4 @@
+*BucaneroTestRunner
+basicFailures
+
+	^ failures

@@ -1,0 +1,4 @@
+*BucaneroTestRunner
+basicPassed
+
+	^ passed
