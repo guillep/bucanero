@@ -14,4 +14,4 @@ install:
   - ./scripts/install-packages.sh
 
 script:
-  - ./pharo Pharo.image eval "BucaneroTestRunner runTests"
+  - ./pharo Pharo.image eval "BCTestRunner runTests"
