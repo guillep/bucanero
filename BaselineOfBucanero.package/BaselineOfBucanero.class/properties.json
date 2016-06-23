@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfBucanero",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfBucanero",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
