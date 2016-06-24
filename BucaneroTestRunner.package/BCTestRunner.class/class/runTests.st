@@ -31,10 +31,10 @@ runTests
 		futureTestResults collect: [:each |
 			(MatraFuture doing: [ | testResult |
 				testResult := (each valueTimeout: 360 seconds).
-				testResult basicErrors do: [ :e | globalTestResult addError: ((e asLocalObject) instVarNamed: 'expectedFailes' put: nil; yourself)  ].
-				testResult basicPassed do: [ :e | globalTestResult addPass: ((e asLocalObject) instVarNamed: 'expectedFailes' put: nil; yourself)  ].
-				testResult basicSkipped do: [ :e | globalTestResult addSkip: ((e asLocalObject) instVarNamed: 'expectedFailes' put: nil; yourself)  ].
-				testResult basicFailures do: [ :e | globalTestResult addFailure: ((e asLocalObject) instVarNamed: 'expectedFailes' put: nil; yourself) ]
+				testResult basicErrors do: [ :e | globalTestResult addError: ((e asLocalObject) instVarNamed: 'expectedFails' put: nil; yourself)  ].
+				testResult basicPassed do: [ :e | globalTestResult addPass: ((e asLocalObject) instVarNamed: 'expectedFails' put: nil; yourself)  ].
+				testResult basicSkipped do: [ :e | globalTestResult addSkip: ((e asLocalObject) instVarNamed: 'expectedFails' put: nil; yourself)  ].
+				testResult basicFailures do: [ :e | globalTestResult addFailure: ((e asLocalObject) instVarNamed: 'expectedFails' put: nil; yourself) ]
 				])
 			onExceptionDo: [:e | e logCr ];
 			onTimeoutDo: [ 'timeout' ];
