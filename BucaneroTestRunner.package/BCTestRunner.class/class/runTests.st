@@ -23,7 +23,7 @@ runTests
 
 	futureTestResults := futureChildImages collect: [ :each | 
 			MatraFuture doing: [ | runner  |
- 				runner := (each second valueTimeout: 30 seconds) get: MatraLocalTestRunner name.
+ 				runner := (each second valueTimeout: 30 seconds) get: BCLocalTestRunner name.
 				FileStream stdout nextPutAll: 'got runner'; cr.
 				runner runTestsOf: each first. ] ].
 	
