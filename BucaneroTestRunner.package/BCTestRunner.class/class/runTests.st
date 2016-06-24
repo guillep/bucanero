@@ -38,7 +38,7 @@ runTests
 				])
 			onExceptionDo: [:e | e logCr ];
 			onTimeoutDo: [ 'timeout' ];
-			valueTimeout: 10 seconds ].
+			valueTimeout: 360 seconds ].
 		globalTestResult ]) valueTimeout: 360 seconds.
 	
 	] ensure: [ currentMatra ifNotNil: #stopServer ]
