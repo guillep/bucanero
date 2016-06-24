@@ -36,7 +36,7 @@ runTests
 				testResult basicSkipped do: [ :e | globalTestResult addSkip: ((e asLocalObject) instVarNamed: 'expectedFailes' put: nil; yourself)  ].
 				testResult basicFailures do: [ :e | globalTestResult addFailure: ((e asLocalObject) instVarNamed: 'expectedFailes' put: nil; yourself) ]
 				])
-			onExceptionDo: [:e | e];
+			onExceptionDo: [:e | e logCr ];
 			onTimeoutDo: [ 'timeout' ];
 			valueTimeout: 10 seconds ].
 		globalTestResult ]) valueTimeout: 360 seconds.
