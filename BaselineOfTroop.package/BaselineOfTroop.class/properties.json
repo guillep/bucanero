@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfTroop",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfTroop",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
