@@ -1,0 +1,4 @@
+*TroopTestRunner
+basicPassed
+
+	^ passed

@@ -1,0 +1,4 @@
+*TroopTestRunner
+basicSkipped
+
+	^ skipped
