@@ -1,4 +1,0 @@
-*BucaneroTestRunner
-basicSkipped
-
-	^ skipped
