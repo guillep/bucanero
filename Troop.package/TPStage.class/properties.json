@@ -1,0 +1,14 @@
+{
+	"category" : "Troop-Stages",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TPStage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

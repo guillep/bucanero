@@ -1,0 +1,14 @@
+{
+	"category" : "Troop-Stages",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"archetype" ],
+	"name" : "TPLoadImageStage",
+	"pools" : [
+		 ],
+	"super" : "TPStage",
+	"type" : "normal" }

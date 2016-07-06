@@ -1,0 +1,14 @@
+{
+	"category" : "Troop",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lootResults" ],
+	"name" : "TPLoot",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"category" : "Troop",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stages",
+		"imageArchetype",
+		"numberOfMonkeys",
+		"futureDictionary" ],
+	"name" : "Troop",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
