@@ -1,4 +1,6 @@
-planification
+actions
 runTests
 	
-	stages add: TPRunTestStage new
+	^ MatraFuture doing: [ 
+		TroopTestRun new
+			executeOn: self ]

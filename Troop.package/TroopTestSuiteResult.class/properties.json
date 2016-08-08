@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"archetypes",
-		"tasks",
-		"monkeyQueue" ],
-	"name" : "Troop",
+		"result",
+		"test",
+		"stackTrace",
+		"description" ],
+	"name" : "TroopTestSuiteResult",
 	"pools" : [
 		 ],
 	"super" : "Object",

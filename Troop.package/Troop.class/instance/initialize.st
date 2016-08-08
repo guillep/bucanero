@@ -2,4 +2,6 @@ initialize-release
 initialize
 
 	super initialize.
-	stages := OrderedCollection new
+	archetypes := Set new.
+	tasks := AtomicSharedQueue new.
+	monkeyQueue := AtomicSharedQueue new.

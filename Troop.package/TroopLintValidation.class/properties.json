@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"archetypes",
-		"tasks",
-		"monkeyQueue" ],
-	"name" : "Troop",
+		"testMatcher",
+		"results" ],
+	"name" : "TroopLintValidation",
 	"pools" : [
 		 ],
 	"super" : "Object",

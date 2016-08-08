@@ -1,21 +1,9 @@
-execution
+actions
 go
-	
-	| imagePool currentMatra |
-	currentMatra := MatraImage newCurrent.
-	currentMatra startServerOn: 49587.
-	
-	imagePool := MatraImagePool new
-		poolSize: numberOfMonkeys;
-		processCreationBlock: [ :pool | | image task |
-			image := imageArchetype clone startClientOf: currentMatra.
-			[ true ] whileTrue: [ | result |
-				task := pool nextTask.
-				result := image runTask: task.
-				(pool futureForTask: task) deployResult: result
-			]];
-		yourself.
-	imagePool start.
-	
-	[ ^ TPLoot withAll: (stages do: [ :each | each execute: imagePool ]) ] 
-		ensure: [ imagePool stop ]
+
+	self ensureTroop.
+	[ tasks isEmpty ] whileFalse: [ | task |
+		task := tasks next.
+		('Scheduling task. ', tasks size asString, ' to go')  logCr.
+		[ self getFreeMonkey executeTask: task ] fork.
+	]

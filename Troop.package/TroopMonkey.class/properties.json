@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"archetypes",
-		"tasks",
-		"monkeyQueue" ],
-	"name" : "Troop",
+		"image",
+		"troop" ],
+	"name" : "TroopMonkey",
 	"pools" : [
 		 ],
 	"super" : "Object",

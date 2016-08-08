@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"archetypes",
-		"tasks",
-		"monkeyQueue" ],
-	"name" : "Troop",
+		"archetype",
+		"environmentPool",
+		"validationResults",
+		"result" ],
+	"name" : "TroopBuildEnvironment",
 	"pools" : [
 		 ],
 	"super" : "Object",
