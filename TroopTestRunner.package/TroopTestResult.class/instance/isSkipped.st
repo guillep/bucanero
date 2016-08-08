@@ -1,0 +1,4 @@
+testing
+isSkipped
+	
+	^ result = 'SKIPPED'
