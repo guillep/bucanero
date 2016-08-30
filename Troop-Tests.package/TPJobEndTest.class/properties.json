@@ -1,0 +1,14 @@
+{
+	"category" : "Troop-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TPJobEndTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
