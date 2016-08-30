@@ -1,0 +1,14 @@
+{
+	"category" : "Troop",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TPJobStart",
+	"pools" : [
+		 ],
+	"super" : "TPJobStep",
+	"type" : "normal" }

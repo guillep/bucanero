@@ -1,4 +1,0 @@
-executing
-results
-
-	^ results

@@ -1,4 +1,0 @@
-executing
-partitions
-
-	^ PharoCriticRules pharoHardLintRules

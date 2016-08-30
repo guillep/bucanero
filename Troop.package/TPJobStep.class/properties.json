@@ -1,0 +1,19 @@
+{
+	"category" : "Troop",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nextSteps",
+		"deployer",
+		"worker",
+		"inputQueue",
+		"job",
+		"outputQueue" ],
+	"name" : "TPJobStep",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

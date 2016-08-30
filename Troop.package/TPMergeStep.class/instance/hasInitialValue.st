@@ -1,0 +1,3 @@
+testing
+hasInitialValue
+	^ hasInitialValue

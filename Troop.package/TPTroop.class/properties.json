@@ -1,0 +1,15 @@
+{
+	"category" : "Troop",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"workerPool",
+		"distributedTask" ],
+	"name" : "TPTroop",
+	"pools" : [
+		 ],
+	"super" : "TPJobStep",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+testing
+isMerged
+	
+	^ partitionContext isMerged

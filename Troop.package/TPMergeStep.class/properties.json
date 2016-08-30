@@ -1,0 +1,17 @@
+{
+	"category" : "Troop",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"merger",
+		"initialValue",
+		"hasInitialValue",
+		"mergeContexts" ],
+	"name" : "TPMergeStep",
+	"pools" : [
+		 ],
+	"super" : "TPJobStep",
+	"type" : "normal" }

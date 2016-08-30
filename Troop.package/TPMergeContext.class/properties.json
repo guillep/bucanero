@@ -1,0 +1,16 @@
+{
+	"category" : "Troop",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value",
+		"hasValue",
+		"partitionContext" ],
+	"name" : "TPMergeContext",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
