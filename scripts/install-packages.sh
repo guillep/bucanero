@@ -4,7 +4,7 @@ set -ex
 
 ./pharo Pharo.image eval "
 Metacello new 
-	baseline: 'Bucanero';
+	baseline: 'Troop';
 	repository: 'filetree://.';
 	load.
 
