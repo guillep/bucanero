@@ -1,4 +1,0 @@
-*TroopTestRunner
-basicErrors
-
-	^ errors

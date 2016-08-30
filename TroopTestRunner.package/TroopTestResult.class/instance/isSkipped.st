@@ -1,4 +1,0 @@
-testing
-isSkipped
-	
-	^ result = 'SKIPPED'
